@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #E9F5FD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(90, 81, 81);
+    max-height: 740px;
+
+    h2 {
+        font-size: 2em;
+        padding-top: 20px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.5em;
+        padding-top: 10px;
+    }
+    svg {
+        padding-top: 80px;
+    }
+  }
+
+#error {
+    animation: error 1.5s ease;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @keyframes error {
+      from {
+            transform: rotateZ(0deg);
+      }
+      to {
+            transform: rotateZ(360deg);
+      }
+  }
+
+#message {
+    animation: message 2s ease;
+    position: relative;
+  }
+
+  @keyframes message {
+   from {
+     top: -800px; 
+   }
+   to {
+     top: 0px;
+   }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    svg {
+        width: 350px;
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    svg {
+        width: 450px;
+        height: 400px;
+    }
+}

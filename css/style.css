@@ -1,0 +1,451 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #3291FF;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: none;
+  color: #3291FF;
+}
+
+::-webkit-input-placeholder {
+  color: #3291FF;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #3291FF;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: #3291FF;
+  opacity: 1;
+}
+
+::placeholder {
+  color: #3291FF;
+  opacity: 1;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f3f3f3;
+  font-size: 1.2em;
+  min-height: 8vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.headerCls {
+  background-image: url(../picture/header.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 700px;
+}
+
+.headerCls .brand-logo {
+  color: black !important;
+}
+
+.headerCls .brand-logo span {
+  color: #006521;
+  text-transform: uppercase;
+}
+
+.headerCls .material-icons {
+  font-size: 2.5em;
+}
+
+.headerCls .navLink a {
+  font-size: 1.2em;
+}
+
+.headerCls .navLinkMob {
+  text-transform: uppercase;
+}
+
+.headerCls .navLinkMob a {
+  font-size: 1.2em;
+}
+
+.headerCls .mobLogCls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headerCls .mobLogCls a {
+  color: black;
+  font-size: 2em !important;
+}
+
+.headerCls .mobLogCls span {
+  color: #006521;
+}
+
+.headerText {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+.headerText h1 {
+  font-size: 2.05em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.headerText p {
+  color: whitesmoke;
+  font-size: 1.5em;
+}
+
+.headerText a {
+  margin-top: 25px;
+  border-radius: 20px;
+  background-color: #3291FF;
+}
+
+.pcImg {
+  visibility: hidden;
+}
+
+.poslanieSection {
+  background-color: #f3f3f3;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+
+.poslanieSection .poslanieText {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.poslanieSection .poslanieText h2 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  padding-bottom: 15px;
+}
+
+.poslanieSection .poslanieText h3 {
+  font-size: 2em;
+  color: #A5A8D2;
+}
+
+.poslanieSection .card {
+  border-radius: 10px;
+  min-height: 450px;
+}
+
+.poslanieSection .cardCls {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.poslanieSection .cardCls i {
+  color: #3291FF;
+  font-size: 6.5em;
+}
+
+.poslanieSection .cardCls h3 {
+  font-size: 2.2em;
+}
+
+.poslanieSection .cardCls p {
+  font-size: 1.2em;
+}
+
+.onasSection {
+  background-image: url(../picture/section.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 60px;
+  min-height: 1100px;
+}
+
+.onasSection .onasImg {
+  padding-top: 100px;
+  height: 300px;
+}
+
+.onasSection h2 {
+  text-transform: uppercase;
+  font-size: 2.2em;
+  padding-bottom: 15px;
+}
+
+.onasSection h3 {
+  font-size: 2em;
+  color: #86bfff;
+}
+
+.onasSection p {
+  font-size: 1.1em;
+}
+
+.onasSection .onasBrands {
+  padding-top: 30px;
+  display: inline-block;
+}
+
+.onasSection .onasBrands img {
+  width: 80px;
+}
+
+.ponukaSection .ponukaText {
+  text-align: center;
+}
+
+.ponukaSection .ponukaText h2 {
+  text-transform: uppercase;
+  font-size: 2.2em;
+  padding-bottom: 15px;
+}
+
+.ponukaSection .ponukaText h3 {
+  font-size: 1.5em;
+  color: #535461;
+}
+
+.ponukaSection .card {
+  border-radius: 10px;
+  min-height: 500px;
+}
+
+.ponukaSection .row {
+  margin-bottom: 5px;
+}
+
+.ponukaSection .ponukaCard {
+  text-align: center;
+}
+
+.ponukaSection .ponukaCard i {
+  font-size: 65px;
+}
+
+.ponukaSection .ponukaCard h3 {
+  font-size: 1.8em;
+  padding-bottom: 10px;
+}
+
+.ponukaSection .textCls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ponukaSection .textCls i {
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.ponukaSection .textCls p {
+  padding-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.kontaktSection {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.801)), to(rgba(71, 65, 65, 0.507))), url(../picture/communication.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(71, 65, 65, 0.507)), url(../picture/communication.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 750px;
+}
+
+.kontaktSection h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.kontaktSection h3 {
+  color: #3291FF;
+  font-size: 1.5em;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.kontaktSection .formControl {
+  position: relative;
+}
+
+.kontaktSection .formControl i {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.kontaktSection .formControl small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+
+.kontaktSection iframe {
+  width: 100%;
+  margin: 10px 0;
+  padding-bottom: 10px;
+}
+
+.kontaktSection .btn-large {
+  background-color: #3291FF;
+  margin: 10px 0;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.formControl.successCls input, .formControl.successCls textarea {
+  border-color: #3291FF;
+}
+
+.formControl.successCls i.succ {
+  color: #3291FF;
+  visibility: visible;
+}
+
+.formControl.errorCls input, .formControl.errorCls textarea {
+  border-color: #e74c3c;
+}
+
+.formControl.errorCls i.err {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.formControl.errorCls small {
+  color: #e74c3c;
+  font-weight: bold;
+  visibility: visible;
+}
+
+@media (max-width: 600px) {
+  .headerCls {
+    background-image: url(../picture/header2.svg);
+    height: 650px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+  .headerCls {
+    height: 600px;
+  }
+  .onasSection {
+    min-height: 850px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .headerCls {
+    min-height: 980px;
+  }
+  .textImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .textImg .pcImg {
+    visibility: visible;
+  }
+  .headerText {
+    text-align: left;
+  }
+  .onasSection {
+    min-height: 750px;
+  }
+  .onasSection .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .onasSection .container .onasText {
+    text-align: left;
+    padding-top: 100px;
+  }
+  .onasSection .container .onasText p {
+    font-size: 0.9em;
+  }
+  .kontaktSection .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .kontaktSection .kontaktMap {
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .kontaktSection form {
+    width: 50%;
+    padding-right: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
